@@ -39,6 +39,3 @@ fun main(){
 }
 */
 
-fun main(){
-}
-
