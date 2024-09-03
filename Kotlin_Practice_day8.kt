@@ -73,7 +73,7 @@ open class Rectangle(val a:Double, val b:Double){
     fun area():Double{return a*b}
     open fun display(){println("Area of the rectangle with dimension $a and $b is${area()}")}
 }
-class Square(side:Double:Rectangle(side,side)){
+class Square(val side:Double):Rectangle(side,side){
     override fun display(){println("Area of Square with $side and $side is ${area()}")}
 }
 fun main(){
